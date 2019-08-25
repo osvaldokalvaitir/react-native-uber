@@ -10,9 +10,11 @@
   "dependencies": {
     "react": "16.8.6",
     "react-native": "0.60.5",
+    "react-native-geocoding": "^0.3.0",
     "react-native-google-places-autocomplete": "^1.3.9",
     "react-native-maps": "^0.25.0",
-    "react-native-maps-directions": "^1.7.0"
+    "react-native-maps-directions": "^1.7.0",
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",

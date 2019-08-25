@@ -1,15 +1,15 @@
-import React, {Component} from 'react';
-import {Platform} from 'react-native';
-import {GooglePlacesAutocomplete} from 'react-native-google-places-autocomplete';
+import React, { Component } from 'react';
+import { Platform } from 'react-native';
+import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 
-export default class extends Component {
+export default class Search extends Component {
   state = {
     searchFocused: false,
   };
 
   render() {
-    const {searchFocused} = this.state;
-    const {onLocationSelected} = this.props;
+    const { searchFocused } = this.state;
+    const { onLocationSelected } = this.props;
 
     return (
       <GooglePlacesAutocomplete
@@ -22,10 +22,10 @@ export default class extends Component {
         }}
         textInputProps={{
           onFocus: () => {
-            this.setState({searchFocused: true});
+            this.setState({ searchFocused: true });
           },
           onBlur: () => {
-            this.setState({searchFocused: false});
+            this.setState({ searchFocused: false });
           },
           autoCapitalize: 'none',
           autoCorrect: false,
@@ -36,7 +36,7 @@ export default class extends Component {
         styles={{
           container: {
             position: 'absolute',
-            top: Platform.select({ios: 60, android: 40}),
+            top: Platform.select({ ios: 60, android: 40 }),
             width: '100%',
           },
           textInputContainer: {
@@ -61,7 +61,7 @@ export default class extends Component {
             elevation: 5,
             shadowColor: '#000',
             shadowOpacity: 0.1,
-            shadowOffset: {x: 0, y: 0},
+            shadowOffset: { x: 0, y: 0 },
             shadowRadius: 15,
             borderWidth: 1,
             borderColor: '#DDD',
@@ -75,7 +75,7 @@ export default class extends Component {
             elevation: 5,
             shadowColor: '#000',
             shadowOpacity: 0.1,
-            shadowOffset: {x: 0, y: 0},
+            shadowOffset: { x: 0, y: 0 },
             shadowRadius: 15,
             marginTop: 10,
           },
