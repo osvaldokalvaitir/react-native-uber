@@ -8,6 +8,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/geolocation": "^2.0.2",
     "react": "16.8.6",
     "react-native": "0.60.5",
     "react-native-geocoding": "^0.3.0",

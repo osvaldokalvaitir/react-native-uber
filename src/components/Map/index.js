@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { View, Image } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 import Geocoder from 'react-native-geocoding';
+import Geolocation from '@react-native-community/geolocation';
 
 import { getPixelSize } from '../../utils';
 
@@ -32,7 +33,7 @@ export default class Map extends Component {
   };
 
   async componentDidMount() {
-    navigator.geolocation.getCurrentPosition(
+    Geolocation.getCurrentPosition(
       async ({ coords: { latitude, longitude } }) => {
         const response = await Geocoder.from({ latitude, longitude });
         const address = response.results[0].formatted_address;
