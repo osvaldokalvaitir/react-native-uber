@@ -38,12 +38,12 @@ Aplicação Uber usando React Native, react-native-maps, react-native-maps-direc
 
 ### Mapa
 
-![Map](/assets/map.png)
+![Map](/.github/assets/map.png)
 Esta é a tela inicial, onde encontra-se um mapa com a localização atual do usuário, sendo possível digitar um local de destino para traçar uma rota.
 
 ### Rota
 
-![Route](/assets/route.png)
+![Route](/.github/assets/route.png)
 É a rota, da origem até o local de destino com um indicativo de duração em minutos, podendo voltar para traçar uma outra rota.
 
 ## Desenvolvimento
