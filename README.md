@@ -1,83 +1,64 @@
-# React Native - Uber
+<h1 align="center">
+    <img src="/.github/assets/logo.png"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/react-native-uber/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/react-native-uber.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/react-native-uber.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-uber.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-uber.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/react-native-uber.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/react-native-uber.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  React Native - Uber
+</h3>
 
-Aplicação Uber usando React Native, react-native-maps, react-native-maps-directions, react-native-google-places-autocomplete, react-native-geocoding, Geolocation, styled-components e Google Maps Platform.
+<p align="center">
+  :pushpin: Uber Application using React Native, react-native-maps, react-native-maps-directions, react-native-google-places-autocomplete, react-native-geocoding, Geolocation, styled-components and Google Maps Platform
+</p>
 
-## Índice
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-uber.svg?color=00A83A">
 
-- [Capturas de Tela](#capturas-de-tela)
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-uber.svg?color=00A83A">
 
-  - [Mapa](#mapa)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-  - [Rota](#rota)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-- [Desenvolvimento](#desenvolvimento)
+<p align="center">
+  <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+## :iphone: Demo
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+![Demo](/.github/assets/demo.gif)
 
-  - [Execução do Projeto](#execução-do-projeto)
+## :wrench: Install and run
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+Open terminal:
 
-  - [Bibliotecas](#bibliotecas)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/react-native-uber
 
-  - [Ferramentas](#ferramentas)
+# Entry in folder
+cd react-native-uber
 
-## Capturas de Tela
+# Install deps with npm or yarn
+npm install | yarn
 
-### Mapa
+# Launch the app on android with react-native or yarn
+react-native run-android | yarn android
 
-![Map](/.github/assets/map.png)
-Esta é a tela inicial, onde encontra-se um mapa com a localização atual do usuário, sendo possível digitar um local de destino para traçar uma rota.
+# Launch the app on ios with react-native or yarn
+react-native run-ios | yarn ios
+```
 
-### Rota
+## :memo: License
 
-![Route](/.github/assets/route.png)
-É a rota, da origem até o local de destino com um indicativo de duração em minutos, podendo voltar para traçar uma outra rota.
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-## Desenvolvimento
+---
 
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga `Execução de Projeto para Desenvolvimento`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [Geolocation](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@react-native-community-geolocation.md)
-
-- [react-native-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md)
-
-- [react-native-geocoding](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-geocoding.md)
-
-- [react-native-google-places-autocomplete](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-google-places-autocomplete.md)
-
-- [react-native-maps](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-maps.md)
-
-- [react-native-maps-directions](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-maps-directions.md)
-
-- [styled-components](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/styled-components.md)
-
-### Ferramentas
-
-- [Google Maps Platform](https://github.com/osvaldokalvaitir/projects-settings/blob/master/map/google-maps-platform.md)
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
