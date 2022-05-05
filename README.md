@@ -53,6 +53,8 @@ react-native run-android | yarn android
 react-native run-ios | yarn ios
 ```
 
+Click to learn more about the tools used: [Google Maps Platform](https://github.com/osvaldokalvaitir/awesome/blob/main/src/maps/google-maps-platform.md).
+
 ## :memo: License
 
 This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
